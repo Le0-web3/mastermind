@@ -174,15 +174,16 @@ h1 {
   :root {
     --casedim: 20px;
     --casemargin:2px;
-    --height: 580px;
-    --width: 336px;
+    --height: 530px;
+    --width: 306px;
   }
   h1 {
-    margin: var(--casedim);
+    margin: 1%;
   }
   .button {
     margin: var(--casedim) auto;
     zoom: 70%;
+    width: 50%;
 
   }
   #display {
