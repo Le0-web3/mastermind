@@ -165,7 +165,7 @@ const onValidate = () => {
     // white clue
     for(let i = 0; i < notRedRow.length; i++) {
       for(let j = 0; j < notRedPattern.length; j++) {
-        if(notRedRow[i] === notRedPattern[j]) {
+        if(notRedRow[i] === notRedPattern[j] && notRedRow[i] !== 0) {
           whiteClues +=1;
           notRedRow[i] = 0;
           notRedPattern[j] = 0;
